@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+/* @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lobster&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    @apply overflow-x-hidden scroll-smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    @apply bg-green-950 text-white font-Jost tracking-wider ;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+section{
+    @apply py-20 md:py-28;
+}
+h1{
+    @apply text-3xl md:text-4xl xl:text-5xl font-bold;
+}
+
+h2{
+    @apply text-2xl md:text-3xl xl:text-4xl;
+}
+h3{
+    @apply text-xl md:text-2xl xl:text-3xl;
+}
+
+.active{
+    @apply text-yellow-400;
+}
+
+.nav-link{
+    @apply text-lg font-bold duration-300;
+}
+.nav-lin:hover{
+    @apply text-yellow-500;
+}
+
+/* title */
+.title{
+   @apply font-Lobster  text-yellow-500;
+}
+
+.btn{
+    @apply border border-yellow-500 bg-yellow-500 rounded-md px-5 py-2 duration-300;
+}
+
+.btn span{
+    @apply font-bold ;
+}
+.btn:hover{
+    @apply opacity-90;
+}
+
+.btn_outline{
+    @apply bg-transparent;
+}
+.btn_outline:hover{
+    @apply bg-yellow-500
+}
+
+/* PopularSection */
+
+.popular_card:hover img{
+    @apply -top-8;
+}
+
+/* .swiper-pagination-bullet{
+    @apply bg-green-500 w-3 h-3;
+} */
+
+
+/* Center pagination dots */
+.my-swiper .swiper-pagination {
+    bottom: 10px; /* Adjust position */
+    text-align: center;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  /* Style dots */
+  .my-swiper .swiper-pagination-bullet {
+    background-color: #cccccc; /* Default dot color */
+    width: 12px; /* Dot size */
+    height: 12px;
+    opacity: 0.6; /* Transparency */
   }
-  to {
-    transform: rotate(360deg);
+  
+  /* Active dot styling */
+  .my-swiper .swiper-pagination-bullet-active {
+    background-color: #ffcc00; /* Active dot color */
+    opacity: 1;
   }
-}
+  

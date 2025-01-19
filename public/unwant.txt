@@ -1,0 +1,228 @@
+ // import logo from '../images/logo.png'
+// import image from '../images/Image.png';
+// import cart from '../images/cart.png';
+// import grocery from '../images/grocery-image.png'
+
+ 
+ 
+ {/* <div className="relative px-28 py-5 container min-h-screen bg-center bg-hover" style={{backgroundImage:`url(${image})`}}>
+    <nav className='flex items-center'>
+      <img src={logo} alt="image" className='w-48 cursor-pointer'/>
+      <ul  className='flex-1 text-center'>
+        <li className='list-none inline-block px-5'><a href="#" className='px-2 no-underline text-white'>Home</a></li>
+        <li className='list-none inline-block px-5'><a href="#" className='px-2 no-underline text-white'>About</a></li>
+        <li className='list-none inline-block px-5'><a href="#" className=' px-2 no-underline text-white'>Features</a></li>
+        <li className='list-none inline-block px-5'><a href="#" className=' px-2 no-underline text-white'>Contact</a></li>
+      </ul>
+      <img src={cart} alt="cart" className='w-8  cursor-pointer'/>
+    </nav>
+    <div className='text-white mt-48 max-w-xl '>
+      <h1 className='text-6xl font-semibold leading-normal'>Groceries<br/>delivery in <span className=' font-light'>15 mins</span></h1>
+      <p>Grocify offer a wide rande of products, including fresh products,meats,dairy, baked goods and non-perishable items.</p>
+    
+    <div className='mt-10'>
+<a href="#" className='bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparent hover:border-yellow-300 hover:text-white duration-300 hover:border-transparent'>Order Now</a>
+<a href="#">Download App<span className='rotate-90 text-lg inline-block '>&#10148;</span></a>
+    </div>
+    </div>
+    <img src={grocery} alt="grocery" className='w-full xl:w-1/2 xl:absolute bottom-0 right-20'/>
+  </div> */}
+
+ 
+      {/* <div
+        className="relative px-6 sm:px-10 lg:px-28 py-5 min-h-screen bg-center bg-cover"
+        style={{ backgroundImage: `url(${image})` }}
+      >
+       
+        <nav className="flex items-center justify-between">
+          <img src={logo} alt="Logo" className="w-32 sm:w-48 cursor-pointer" />
+          <ul className="hidden sm:flex flex-1 justify-center space-x-8 text-white">
+            <li className="list-none">
+              <a href="#" className="px-2 no-underline hover:underline">
+                Home
+              </a>
+            </li>
+            <li className="list-none">
+              <a href="#" className="px-2 no-underline hover:underline">
+                About
+              </a>
+            </li>
+            <li className="list-none">
+              <a href="#" className="px-2 no-underline hover:underline">
+                Features
+              </a>
+            </li>
+            <li className="list-none">
+              <a href="#" className="px-2 no-underline hover:underline">
+                Contact
+              </a>
+            </li>
+          </ul>
+          <img src={cart} alt="Cart" className="w-6 sm:w-8 cursor-pointer" />
+        </nav>
+
+        
+        <div className="text-white mt-20 sm:mt-28 max-w-xl">
+          <h1 className="text-4xl sm:text-6xl font-semibold leading-snug">
+            Groceries <br />
+            delivery in <span className="font-light">15 mins</span>
+          </h1>
+          <p className="mt-4 text-sm sm:text-base">
+            Grocify offers a wide range of products, including fresh produce, meats, dairy, baked goods, and non-perishable items.
+          </p>
+
+          <div className="mt-8">
+            <a
+              href="#"
+              className="bg-yellow-300 rounded-3xl py-3 px-6 sm:px-8 font-medium inline-block mr-4 hover:bg-transparent hover:border-yellow-300 hover:text-white border border-transparent duration-300"
+            >
+              Order Now
+            </a>
+            <a
+              href="#"
+              className="inline-block text-sm sm:text-base hover:underline"
+            >
+              Download App<span className="rotate-90 text-lg inline-block">&#10148;</span>
+            </a>
+          </div>
+        </div>
+
+       
+        <img
+          src={grocery}
+          alt="Grocery"
+          className="w-full sm:w-3/4 xl:w-1/2 xl:absolute bottom-0 right-20"
+        />
+      </div> */}
+
+    
+      {/* <div
+        className="relative container px-4 sm:px-8 md:px-16 lg:px-28 py-5 min-h-screen bg-center bg-cover"
+        style={{ backgroundImage: `url(${image})` }}
+      >
+       
+        <nav className="flex items-center justify-between">
+          <img
+            src={logo}
+            alt="Logo"
+            className="w-24 sm:w-32 lg:w-48 cursor-pointer"
+          />
+          <ul className="hidden md:flex flex-1 justify-center space-x-4 lg:space-x-8 text-white">
+            <li>
+              <a href="#" className="px-2 no-underline hover:underline cursor-pointer">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#" className="px-2 no-underline hover:underline cursor-pointer">
+                About
+              </a>
+            </li>
+            <li>
+              <a href="#" className="px-2 no-underline hover:underline cursor-pointer">
+                Features
+              </a>
+            </li>
+            <li>
+              <a href="#" className="px-2 no-underline hover:underline cursor-pointer">
+                Contact
+              </a>
+            </li>
+          </ul>
+          <div className="flex items-center space-x-4">
+            <img src={cart} alt="Cart" className="w-6 sm:w-8 cursor-pointer" />
+           
+            <button className="md:hidden text-white">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={2}
+                stroke="currentColor"
+                className="w-6 h-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M4 6h16M4 12h16m-7 6h7"
+                />
+              </svg>
+            </button>
+          </div>
+        </nav>
+
+     
+        <div className="text-white mt-20 md:mt-28 max-w-full md:max-w-xl">
+          <h1 className="text-3xl sm:text-4xl lg:text-6xl font-semibold leading-snug">
+            Groceries <br />
+            delivery in <span className="font-light">15 mins</span>
+          </h1>
+          <p className="mt-4 text-sm md:text-base lg:text-lg">
+            Grocify offers a wide range of products, including fresh produce,
+            meats, dairy, baked goods, and non-perishable items.
+          </p>
+
+          <div className="mt-8">
+            <a
+              href="#"
+              className="bg-yellow-300 rounded-3xl py-3 px-6 sm:px-8 font-medium inline-block mr-4 hover:bg-transparent hover:border-yellow-300 hover:text-white border border-transparent duration-300"
+            >
+              Order Now
+            </a>
+            <a
+              href="#"
+              className="inline-block text-sm sm:text-base hover:underline"
+            >
+              Download App
+              <span className="rotate-90 text-lg inline-block">&#10148;</span>
+            </a>
+          </div>
+        </div>
+
+       
+        <img
+          src={grocery}
+          alt="Grocery"
+          className="mt-8 md:mt-16 w-full sm:w-3/4 lg:w-1/2 xl:w-2/5 mx-auto xl:absolute bottom-0 right-20"
+        />
+      </div> */}
+    
+
+
+
+{/* <div className='text-white underline bg-green-500 container sm:bg-red-400  md:bg-blue-500 lg:bg-yellow-400 xl:bg-purple-600 mx-auto font-Lobster'>Plant</div> */}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//script
+const navMenu=document.getElementById("nav-menu")
+const navLink=document.querySelectorAll(".nav-link")
+const hamburger=document.getElementById("hamburger")
+
+hamburger.addEventListener("click",()=>{
+  navMenu.classList.toggle("left.[0]")
+  hamburger.classList.toggle('ri-close--large-line')
+})
+
+navLink.forEach(link=>{
+  link.addEventListener("click",()=>{
+    navMenu.classList.toggle("left.[0]")
+    hamburger.classList.toggle("ri-close-large-line")
+  })
+})

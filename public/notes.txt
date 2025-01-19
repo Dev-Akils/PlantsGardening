@@ -1,0 +1,25 @@
+//npm install ajv-keywords@3 ajv@6
+
+npm i -D tailwindcss
+
+npx tailwincss init
+
+ content: ["./src/**/*.{html,js}"],
+
+npm install xlsx
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init
+
+
+//swiper
+//icon
+
+<!-- [cdnjs icon]  https://cdnjs.com/libraries/remixicon      https://remixicon.com/-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <!-- [swiper]  https://swiperjs.com/get-started-->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+(instead of)
+  npm i swiper

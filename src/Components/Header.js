@@ -59,7 +59,8 @@ useEffect(() => {
     <>
       <header id="navbar" className="bg-green-950 fixed w-full top-0 left-0 z-50">
         <nav className="container flex items-center justify-between h-16 sm:h-20">
-          <div className="font-Lobster sm:text-2xl">IndorePlants</div>
+          <div className="font-Lobster sm:text-2xl">
+          <a href="#">IndorePlants</a></div>
           <div
             id="nav-menu"
             className={`absolute top-0 ${
@@ -83,7 +84,7 @@ useEffect(() => {
                 </a>
               </li>
               <li>
-                <a href="#review1" className="nav-link" onClick={closeMenu}>
+                <a href="#reviewsection" className="nav-link" onClick={closeMenu}>
                   Review
                 </a>
               </li>
